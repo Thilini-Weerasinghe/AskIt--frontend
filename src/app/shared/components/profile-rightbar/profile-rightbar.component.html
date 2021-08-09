@@ -1,0 +1,40 @@
+<!-- {user.username !== currentUser.username && ( -->
+<button class="rightbarFollowButton" onClick={handleClick}>
+    <!-- {followed ? "Unfollow" : "Follow"}
+    {followed ? -->
+    <!-- <Remove /> :
+    <Add />} -->
+</button>
+<!-- )} -->
+<h4 class="rightbarTitle">User information</h4>
+<div class="rightbarInfo">
+    <div class="rightbarInfoItem">
+        <span class="rightbarInfoKey">City:</span>
+        <span class="rightbarInfoValue">Kalutara</span>
+    </div>
+    <div class="rightbarInfoItem">
+        <span class="rightbarInfoKey">From:</span>
+        <span class="rightbarInfoValue">Sri Lanka</span>
+    </div>
+    <div class="rightbarInfoItem">
+        <span class="rightbarInfoKey">Relationship:</span>
+        <span class="rightbarInfoValue">
+            <!-- {user.relationship === 1
+            ? "Single"
+            : user.relationship === 1
+            ? "Married"
+            : "-"} -->
+        </span>
+    </div>
+</div>
+<h4 class="rightbarTitle">User friends</h4>
+<div class="rightbarFollowings">
+    <!-- {friends.map((friend) => ( -->
+    <!-- <Link to={"/profile/" + friend.username} style={{ textDecoration: "none" }}> -->
+    <div class="rightbarFollowing">
+        <img src="../../../../assets/person/noAvatar.png" alt="" class="rightbarFollowingImg" />
+        <span class="rightbarFollowingName">Kasuni Chamudika</span>
+    </div>
+    <!-- </Link> -->
+    <!-- ))} -->
+</div>

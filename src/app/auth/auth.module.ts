@@ -6,6 +6,7 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { ProfileModule } from '../profile/profile.module';
 
 
 
@@ -18,7 +19,8 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
   imports: [
     CommonModule,
     AuthRoutingModule,
-    FormsModule
+    FormsModule,
+    ProfileModule
   ],
   exports: [
     LoginComponent,
